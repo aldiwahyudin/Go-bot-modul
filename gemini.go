@@ -1,7 +1,7 @@
 package gemini
 
 import (
-        "github.com/google/generative-ai-go"
+     //   "github.com/google/generative-ai-go"
         "bytes"
         "encoding/json"
         "fmt"
