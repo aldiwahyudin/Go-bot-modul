@@ -10,7 +10,7 @@ import (
 // QueryGeminiAPI function to interact with the Gemini API
 func QueryGeminiAPI(text string, apiKey string) (string, error) {
         // API endpoint
-        url := "https://api.gemini.com/v1/generate"
+        url := "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
 
         // Prepare request body
         requestBody := map[string]interface{}{
